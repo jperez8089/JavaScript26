@@ -1,0 +1,37 @@
+{
+  "enableStatusBarItem": true,
+  "enableQuickPick": true,
+  "uploadOnSave": true,
+  "autoDelete": true,
+  "checkGitignore": false,
+  "activeTargets": ["My FTP"],
+  "concurrency": 5,
+  "ignore": [".git/**/*", ".vscode/**/*"],
+  "include": [],
+  "targets": [
+    {
+      "name": "My FTP",
+      "type": "ftp",
+      "host": "jperez8089.mccweb.net",
+      "port": 22,
+      "user": "jperez8089",
+      "password": "ADD147u01s2026",
+      "dir": "/public_html",
+      "baseDir": "/",
+      "privateKey": null,
+      "passphrase": null
+    },
+    {
+      "name": "My FTP",
+      "type": "ftp",
+      "host": "jperez8089.mccweb.net",
+      "port": 21,
+      "user": "jperez8089",
+      "password": "ADD147u01s2026",
+      "dir": "/public_html",
+      "baseDir": "/",
+      "transferDataType": "binary",
+      "secure": false
+    }
+  ]
+}
