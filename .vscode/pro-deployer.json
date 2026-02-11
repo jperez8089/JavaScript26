@@ -10,8 +10,8 @@
   "include": [],
   "targets": [
     {
-      "name": "My FTP",
-      "type": "ftp",
+      "name": "My SFTP",
+      "type": "sftp",
       "host": "jperez8089.mccweb.net",
       "port": 22,
       "user": "jperez8089",
